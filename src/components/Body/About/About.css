@@ -1,0 +1,22 @@
+.about{
+    width: 95%;
+}
+.about-title{
+    margin-top: 0px;
+    text-align: center;
+    color: rebeccapurple;
+}
+.about-me{
+    text-indent: 20pt;
+    color: #e3d83f;
+    background-color: #272529;
+    padding: 10px;
+}
+.about-me.left{
+    border-radius: 50px;
+    border-bottom-left-radius: 0px;
+}
+.about-me.right{
+    border-radius: 50px;
+    border-bottom-right-radius: 0px;
+}

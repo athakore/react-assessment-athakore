@@ -1,0 +1,30 @@
+.headshot{
+    margin-top: 10px;
+    margin-left: 150px;
+    height: 400px;
+    width: 400px;
+    opacity: .1;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+.name{
+    padding: 10px;
+    font-size: 400%;
+    text-align: right;
+    margin-right: 200px;
+    background-color: #272529;
+    color: rebeccapurple;
+    border-radius: 50px;
+    border-bottom-left-radius: 0px;
+}
+.subtitle{
+    padding: 10px;
+    font-size: 200%;
+    text-align: left;
+    color: #e3d83f;
+    margin-left: 500px;
+    background-color: #272529;
+    border-radius: 50px;
+    border-bottom-right-radius: 0px;
+}

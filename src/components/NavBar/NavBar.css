@@ -1,0 +1,48 @@
+.nav-bar{
+    width: 30px;
+    height: 100vh;
+    position: fixed;
+    background-color: #272722;
+    z-index: 1;
+}
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+.nav-item{
+    display: block;
+    position: relative;
+    list-style: none;
+    width: 30px;
+    transition: width 1s;
+    background-color: #272722;
+}
+.nav-item:hover{
+    width: 150px;
+}
+.nav-item > a{
+    text-decoration: none;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0px;
+    transition: font-size 1s;
+    vertical-align: middle;
+    color: rebeccapurple;
+}
+.nav-item > a:hover{
+    font-size: 18px;
+}
+.nav-icon{
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: middle;
+}
+.nav-text{
+    float: left;
+    position: relative;
+    vertical-align: middle;
+}
